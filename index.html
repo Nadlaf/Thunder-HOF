@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OKC Thunder Hall of Fame</title>
+    
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="p-6 sm:p-12 min-h-screen">
+
+    <header class="mb-8">
+        <div class="header-frame text-center">
+            <div class="mb-4">
+                <img src="./Media/Img/OKC Logo.png" 
+                     alt="OKC Thunder Logo" 
+                     class="h-28 mx-auto drop-shadow-md hover:scale-110 transition-transform duration-300">
+            </div>
+            
+            <h1 class="text-4xl sm:text-6xl text-[#007ac1] tracking-wider uppercase drop-shadow-sm leading-tight">
+                Hall of Fame
+            </h1>
+            <div class="header-underline"></div>
+            <p class="text-lg text-gray-600 mt-4 font-medium font-sans tracking-wide">
+                Hover to see the action. Click to reveal the legend.
+            </p>
+        </div>
+    </header>
+
+<!--Появи в фіналі-->
+    <div class="flex flex-wrap justify-center gap-3 mb-12 max-w-5xl mx-auto">
+        
+        <!--2012-->
+        <div class="finals-scene js-finals-card">
+            <div class="card-flipper">
+                <!--Передня частина-->
+                <div class="finals-face finals-front">
+                    <div class="finals-img-container">
+                        <img src="./Media/Img/OKC Logo.png" 
+                             alt="Thunder" 
+                             class="h-20 w-auto object-contain drop-shadow-sm transition-transform hover:scale-110">
+                        <span class="text-2xl font-black text-gray-400 italic font-sans">VS</span>
+                        <img src="./Media/Img/MIA Logo.png" 
+                             alt="Heat" 
+                             class="h-20 w-auto object-contain drop-shadow-sm transition-transform hover:scale-110">
+                    </div>
+                    <div class="p-4 text-center flex-grow flex flex-col justify-center">
+                        <h3 class="text-3xl text-[#007ac1] mb-1">2012</h3>
+                        <p class="text-xs text-gray-500 font-sans font-bold uppercase tracking-wider mb-2">Western Conf Champs</p>
+                        <div>
+                            <span class="inline-block px-3 py-1 bg-gray-200 text-gray-600 text-xs font-bold rounded-full font-sans">
+                                CLICK FOR ROSTER
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <!--Зворот-->
+                <div class="finals-face finals-back">
+                    <h4 class="text-lg text-[#007ac1] border-b border-gray-200 pb-1 mb-2 text-center w-full">2012 Rotation</h4>
+                    <ul class="text-sm font-sans font-medium text-gray-700 w-full space-y-1">
+                        <li class="flex justify-between items-center"><span class="text-gray-400 font-bold text-xs w-8">PG</span> <span>Russell Westbrook</span></li>
+                        <li class="flex justify-between items-center"><span class="text-gray-400 font-bold text-xs w-8">SG</span> <span>Thabo Sefolosha</span></li>
+                        <li class="flex justify-between items-center"><span class="text-gray-400 font-bold text-xs w-8">SF</span> <span>Kevin Durant</span></li>
+                        <li class="flex justify-between items-center"><span class="text-gray-400 font-bold text-xs w-8">PF</span> <span>Serge Ibaka</span></li>
+                        <li class="flex justify-between items-center"><span class="text-gray-400 font-bold text-xs w-8">C</span> <span>Kendrick Perkins</span></li>
+                        <li class="border-t border-gray-200 my-1"></li>
+                        <li class="flex justify-between items-center"><span class="text-[#ef5b40] font-extrabold text-xs w-8">6th</span> <span>James Harden</span></li>
+                        <li class="flex justify-between items-center"><span class="text-gray-400 font-bold text-xs w-8">7th</span> <span>Derek Fisher</span></li>
+                        <li class="flex justify-between items-center"><span class="text-gray-400 font-bold text-xs w-8">8th</span> <span>Nick Collison</span></li>
+                        <li class="flex justify-between items-center"><span class="text-gray-400 font-bold text-xs w-8">9th</span> <span>Daequan Cook</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!--2025-->
+        <div class="finals-scene js-finals-card">
+            <div class="card-flipper">
+                <!--Передок-->
+                <div class="finals-face finals-front">
+                    <div class="finals-img-container">
+                        <img src="./Media/Img/OKC Logo.png" 
+                             alt="Thunder" 
+                             class="h-20 w-auto object-contain drop-shadow-sm transition-transform hover:scale-110">
+                        <span class="text-2xl font-black text-gray-400 italic font-sans">VS</span>
+                        <img src="./Media/Img/IND Logo.png" 
+                             alt="Pacers" 
+                             class="h-20 w-auto object-contain drop-shadow-sm transition-transform hover:scale-110">
+                    </div>
+                    <div class="p-4 text-center flex-grow flex flex-col justify-center">
+                        <h3 class="text-3xl text-[#ef5b40] mb-1">2025</h3>
+                        <p class="text-xs text-gray-500 font-sans font-bold uppercase tracking-wider mb-2">NBA Champions</p>
+                        <div>
+                            <span class="inline-block px-3 py-1 bg-green-100 text-green-700 text-xs font-bold rounded-full font-sans animate-pulse">
+                                CLICK FOR ROSTER
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <!--Обратка-->
+                <div class="finals-face finals-back">
+                    <h4 class="text-lg text-[#ef5b40] border-b border-gray-200 pb-1 mb-2 text-center w-full">2025 Squad</h4>
+                    <ul class="text-sm font-sans font-medium text-gray-700 w-full space-y-1">
+                        <li class="flex justify-between items-center"><span class="text-gray-400 font-bold text-xs w-8">PG</span> <span class="text-xs">S. Gilgeous-Alexander</span></li>
+                        <li class="flex justify-between items-center"><span class="text-gray-400 font-bold text-xs w-8">SG</span> <span>Luguentz Dort</span></li>
+                        <li class="flex justify-between items-center"><span class="text-gray-400 font-bold text-xs w-8">SF</span> <span>Jalen Williams</span></li>
+                        <li class="flex justify-between items-center"><span class="text-gray-400 font-bold text-xs w-8">PF</span> <span>Chet Holmgren</span></li>
+                        <li class="flex justify-between items-center"><span class="text-gray-400 font-bold text-xs w-8">C</span> <span>Isaiah Hartenstein</span></li>
+                        <li class="border-t border-gray-200 my-1"></li>
+                        <li class="flex justify-between items-center"><span class="text-[#007ac1] font-extrabold text-xs w-8">6th</span> <span>Alex Caruso</span></li>
+                        <li class="flex justify-between items-center"><span class="text-gray-400 font-bold text-xs w-8">7th</span> <span>Cason Wallace</span></li>
+                        <li class="flex justify-between items-center"><span class="text-gray-400 font-bold text-xs w-8">8th</span> <span>Isaiah Joe</span></li>
+                        <li class="flex justify-between items-center"><span class="text-gray-400 font-bold text-xs w-8">9th</span> <span>Aaron Wiggins</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="cards-container" class="grid grid-cols-1 gap-8 grid-custom max-w-6xl mx-auto"></div>
+    
+    <!--Вверх кнопка-->
+    <button id="scrollTopBtn" title="Прокрутити вгору">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 15l-6-6-6 6"/>
+        </svg>
+    </button>
+
+    <script src="JS/script.js"></script>
+</body>
+</html>
